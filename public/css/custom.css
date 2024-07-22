@@ -1,0 +1,50 @@
+@charset "utf-8";
+/** Fonts **/
+@import 'https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro:200,300,400,600 )';
+@font-face { font-family: 'SourceSansPro-Regular'; src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceSansPro-Regular.woff') format('woff'), url('../fonts/SourceSansPro-Regular.ttf') format('truetype'), url('../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg'); font-weight: normal; font-style: normal; }
+
+/* CSS Document */
+body { font-family: 'SourceSansPro-Regular'; background:#f2f2f2; }
+.navbar-custom{ background-color:#fff; padding:30px 0;border-bottom: 1px solid #eee;margin-bottom: 40px;}
+.navigation-links .nav-link{ text-decoration:none; color:#000;text-transform:uppercase; font-size:16px; font-weight:bold;letter-spacing: 1px;}
+.navigation-links span{ font-size: 20px;color: #ccc;padding: 0 15px;}
+.navigation-links .nav-link:hover, .navigation-links .nav-link.active-nav{ color:#2797de; }
+.navigation-links{ margin-top:10px;}
+/** Form css is here **/
+.red{ color:red; font-weight:normal}
+.inputText{ height:55px; border:1px solid #ccc; background:#fff; padding:8px; line-height:55px; width:100%;}
+.form-container{ background:#fff; padding:40px; margin-bottom: 100px;}
+.form-container label{ text-transform:uppercase;}
+.form-container .form-group{ margin-bottom:30px;}
+.save-btn{ background:#2797de; cursor:pointer; color:#fff; font-size:16px; height:50px; line-height:50px; min-width:160px; border:0; text-transform:uppercase; letter-spacing:1px; font-weight:bold;}
+.save-btn:hover{ background:#1b86ca;}
+/** Form submitted data **/
+.form-data ul{ list-style:none; padding:0; overflow:hidden;}
+.form-data ul li{ margin-bottom:30px;}
+.form-data ul li:last-child{ margin-bottom:0;}
+.form-data ul li span{ display:inline-block; font-size:16px;}
+.form-data ul li span.label-name{ min-width:90px; color:#000; font-weight:bold;}
+.form-data ul li span.seperator-col{ text-align:center;padding:0 45px 0 25px;}
+.dark{background: #333;}
+.dark th{ color:#fff; padding:15px 20px !important; }
+.table tbody tr td{padding:15px 20px !important; border-color: #666; }
+.table tbody tr td a{ text-decoration:none; color:#333;}
+.table tbody tr td span{ padding:0 8px;}
+.pagination>li>a{color:#333;}
+.pagination li.active a{ border:1px solid #333 !important;}
+.pagination>li>a:hover, .pagination li.active a, .pagination li.active span{ background:#333 !important; border-color: #333; color:#fff;}
+.margin-default{ margin-bottom:0px !important;}
+
+.validation-error {  
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.reqField {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    float: right;
+    padding: 0 0 0 3px;
+}
